@@ -1,0 +1,17 @@
+local total ;
+total = somador { 1,  2 , 3  }
+      print( total, n)  
+  local somador ;
+       somador = function(...)
+      local soma ;
+              soma = 0;
+      for k , v in pairs ( arg ) do 
+          if (k) == 27 then
+              soma = soma + v ;
+          end
+      end
+      return soma ;
+  end
+  local total ;
+     total= somador(1,2,3)
+  print(total)

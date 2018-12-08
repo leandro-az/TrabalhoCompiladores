@@ -1,0 +1,32 @@
+while(1) do 
+ write( valor)
+ local cmd
+  cmd = strupper(read())
+ if (cmd ==  R) then
+ write( Nome_atual )
+ local oldname
+ oldname = read()
+ write(Novo_nome)
+ local newname 
+     newname = read()
+ local ret
+local error
+ret = rename(oldname, newname)
+erro = ret
+ if (ret ) then
+ write(error)
+ else
+ write(Arquivo renomeado!)
+ end
+ elseif (cmd == D) then
+ write(NomeArquivoApagar)
+ local filename 
+     filename= read()
+ write(Apagar(S/N))
+ local answer 
+    answer= strupper(read())
+ if (answer == S) then 
+print ( Modificado )
+end
+ end
+end 

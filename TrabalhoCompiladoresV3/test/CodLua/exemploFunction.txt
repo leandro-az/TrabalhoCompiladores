@@ -1,0 +1,10 @@
+local somador 
+somador =  f (n)  
+      local soma
+              soma = n 
+      function f ( n ) 
+          if  n == 8  then 
+              soma = soma + n2 
+              return  soma
+          end 
+      end  

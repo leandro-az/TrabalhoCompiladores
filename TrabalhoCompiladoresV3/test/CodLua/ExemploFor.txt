@@ -1,0 +1,5 @@
+for vPar=0, 100, 1 do 
+    if (vPar % 2 == 0) then
+        print(vPar)
+    end 
+end 
